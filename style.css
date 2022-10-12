@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: azure;
+    background-image: url("img/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body::before
+{
+    content:'';
+    background-color: rgb(0, 0, 0, .5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.logo
+{
+    height: 45px;
+    width: 167px;
+}
+header
+{
+    padding: 20px 50px;
+    position: relative;
+    z-index: 10;
+}
+.content
+{
+    margin: auto;
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 550px; 
+    background-color: rgb(0, 0, 0, 0.75);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+main > h2
+{
+    font-size: 32px;
+    color: white;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+.action-input > input
+{
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    color:white;
+    background-color:#333;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    outline: none;
+}
+.action-input
+{
+    margin-bottom: 25px;
+}
+button
+{
+    height: 50px;
+    width: 100%;
+    color:white;
+    background-color: #e50914;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+.suporte, a
+{
+    display: flex;
+    justify-content: space-between;
+    color:#b3b3b3;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.remind
+{
+    height: 15px;
+    width: 15px;
+}
+.sign-up
+{ 
+    display: flex;
+    font-size: 16px;   
+    color: #737373;
+    justify-content:space-around;
+    padding-top: 70px;
+    
+}
+.help a
+{
+    text-decoration: none;
+}
+.sign-up p
+{
+    margin-right: auto;
+    
+  
+}
+.sign-up a
+{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-right: 120px;
+    margin-bottom: 5px;
+}
+.terms
+{
+    display: flex;
+    color: #b3b3b3;
+}
+.terms
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
